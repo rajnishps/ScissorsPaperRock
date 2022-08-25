@@ -35,3 +35,11 @@ button {
   text-align: center;
   margin-top: 20px;
 }
+
+.score-box{
+  font-size: 25px;
+  display: inline;
+}
+#player-score{
+  margin-bottom: 10px;
+}
