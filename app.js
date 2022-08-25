@@ -16,7 +16,7 @@ const game = () => {
   let cScore = 0;
   const getComputerChoice = (playerChoice) => {
     const compOptions = ["Rock", "Paper", "Scissors"];
-    let computerChoice = compOptions[Math.floor(Math.random() * 3)];
+    let computerChoice = compOptions[Math.floor(Math.random() * compOptions.length)];
     compare(playerChoice, computerChoice);
   };
 
